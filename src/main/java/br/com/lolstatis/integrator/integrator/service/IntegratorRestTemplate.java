@@ -1,4 +1,4 @@
-package br.com.lolstatis.integrator.integrator;
+package br.com.lolstatis.integrator.integrator.service;
 
 import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 import org.apache.http.impl.client.CloseableHttpClient;
