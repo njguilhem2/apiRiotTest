@@ -1,7 +1,11 @@
 package br.com.lolstatis.integrator.integrator.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreType;
+
 import java.util.UUID;
 
+@JsonIgnoreType()
 public class RiotRanked {
 
     private UUID leagueId;
